@@ -245,13 +245,6 @@ Next stages:
 
 ---
 
-## Related Components
-
-- **Pandora Vault** *(separate repository)*  
-  Evidence layer for artifacts, outputs, and benchmark results  
-
----
-
 ## Governance
 
 Pandora is open for exploration and extension.
