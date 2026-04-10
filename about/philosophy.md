@@ -4,10 +4,7 @@ Pandora is built on a simple premise:
 
 > **If a system can produce a capability under any set of conditions, that capability exists.**
 
-This principle shifts the focus of evaluation from:
-- what a system is intended to do  
-to  
-- what a system is capable of doing  
+This principle shifts the focus of evaluation from *what a system is intended to do* to **what a system is capable of doing**  
 
 Pandora is concerned with **capability reality**, not **policy intent**.
 
@@ -45,7 +42,7 @@ Adversarial pressure reveals:
 - degradation patterns  
 
 It is not about forcing the system to fail.  
-It is about understanding **how and when it fails—or succeeds in unintended ways**.
+It is about understanding **how and when it fails or succeeds in unintended ways**.
 
 ---
 
