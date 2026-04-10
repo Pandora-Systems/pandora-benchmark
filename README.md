@@ -173,10 +173,29 @@ pandora-benchmark/
 Basic flow:
 
 1. Provide a conversation  
-2. Apply one or more analytical layers  
-3. Execute a workflow  
+2. Choose one or more analytical layers  
+3. Execute a workflow 
 4. Generate structured outputs  
-5. Apply synthesis to interpret results  
+5. Apply synthesis to interpret results
+6. Generate report(s)
+
+``` mermaid
+flowchart TD
+    A[Input: Conversation] --> B[Layer Selection]
+    B --> C[Workflow Execution]
+    C --> D[Structured Outputs]
+    D --> E[Synthesis]
+    E --> F[Intelligence / Reports]
+
+    %% Optional styling for clarity
+    classDef core fill:#0f172a,stroke:#38bdf8,color:#e2e8f0;
+    classDef process fill:#111827,stroke:#6366f1,color:#e5e7eb;
+    classDef output fill:#020617,stroke:#22c55e,color:#dcfce7;
+
+    class A core;
+    class B,C,D,E process;
+    class F output;
+```
 
 Pandora supports:
 
@@ -243,8 +262,6 @@ The **official Pandora ecosystem** is curated and maintained by Pandora Systems.
 
 ## Final Principle
 
-If a system can produce a capability under any set of conditions,
-
-that capability exists.
+If a system can produce a capability under any set of conditions, that capability exists.
 
 Pandora is designed to find those conditions.
