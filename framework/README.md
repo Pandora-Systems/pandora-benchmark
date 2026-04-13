@@ -58,7 +58,7 @@ Defines the overall system structure of Pandora. This document explains how the 
 
 ## 3. `analysis-lifecycle.md`
 
-Defines the full lifecycle of a Pandora analysis. It describes the end-to-end flow from input → layer evaluation → intermediate outputs → synthesis → final report. Unlike workflows (which can vary), this document defines the canonical lifecycle that all executions follow at a structural level.
+Defines the canonical lifecycle of a Pandora analysis. It describes the structural progression from input → context framing → selected analytical execution → intermediate outputs → synthesis → final output. Unlike workflows (which can vary in route width, layer selection, and execution topology), this document defines the fixed stage skeleton that all valid executions follow at a structural level. 
 
 ---
 
