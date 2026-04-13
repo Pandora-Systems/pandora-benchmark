@@ -46,6 +46,16 @@ Every valid Pandora analysis moves through the same six stages:
 The meaning of the deeper view is not to restate these stages in detail.  
 Its job is to explain what these stages protect, what they forbid, and what would count as lifecycle drift.
 
+These six stages should not be read as a demand that every valid Pandora run execute the full available layer stack.
+
+The lifecycle is fixed in structural form, but variable in analytical width. A run may be:
+- narrow,
+- partial,
+- broad,
+- or deeply iterative,
+
+while still remaining lifecycle-compliant, provided the selected analytical path is lawful and the stage skeleton is preserved.
+
 ---
 
 ## What This Document Covers
@@ -110,12 +120,17 @@ The system must know what is being evaluated, at what granularity, and under wha
 ### 3. Layer execution must precede synthesis
 
 Measurement comes before higher-order meaning.  
-Synthesis may interpret or combine layer outputs, but it must not replace measurement.
+Synthesis may interpret or combine outputs from the selected measurement path, but it must not replace measurement.
+
+This does not require that every valid run use the broadest available set of layers.  
+It requires only that whatever analytical path was selected produce lawful upstream signals before synthesis begins.
 
 ### 4. Intermediate outputs must remain pre-conclusion artifacts
 
-Layer results are not final judgments.  
+Intermediate outputs are not final judgments.  
 They are structured analytical signals that preserve what was measured before cross-layer reasoning begins.
+
+In most current Pandora runs, these will be layer outputs. In narrower or evolving routes, they remain whatever lawful upstream analytical artifacts the run actually produced.
 
 ### 5. Final outputs must be downstream products
 
@@ -239,12 +254,14 @@ Even under advanced conditions, Pandora still requires:
 
 - a defined input
 - explicit framing
-- measurable layer execution
+- lawful selected analytical execution
 - preserved intermediate outputs
 - downstream synthesis
 - final output generation
 
 If one of those disappears, the run may still be useful, but it is no longer following the lifecycle strictly.
+
+This requirement should not be confused with a requirement to execute a maximal route. A structurally complete run may still be analytically narrow.
 
 ---
 
