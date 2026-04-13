@@ -18,10 +18,18 @@ It does **not** define workflow variants, operator arrangements, automation stra
 
 ## Core Principle
 
-> Every valid Pandora analysis follows the same six-stage lifecycle, even when execution patterns differ.
+> Every valid Pandora analysis follows the same six-stage lifecycle, even when the selected analytical path differs.
 
-Pandora may vary in scope, layer selection, resourcing, and execution method.
-The lifecycle does not.
+Pandora may vary in:
+- scope,
+- selected layer path,
+- route depth,
+- resourcing,
+- and execution method.
+
+What does not vary is the structural stage skeleton.
+
+The lifecycle is therefore fixed at the level of stages, not at the level of analytical width. A run may be structurally complete without being analytically maximal.
 
 ---
 
@@ -36,7 +44,15 @@ Every Pandora analysis progresses through these six stages:
 5. **Synthesis**
 6. **Final Output Generation**
 
-These stages define the minimum structural progression of a valid Pandora analysis.
+These stages define the minimum structural progression of a valid Pandora analysis. They do not imply that every valid run must execute the full available layer stack.
+
+What varies by workflow or freestyle route is the selected analytical path inside the lifecycle. A valid run may execute:
+- one selected layer,
+- a narrow lawful subset of layers,
+- or a broader multi-layer route,
+
+as long as the run still passes through the same structural progression:
+input → framing → selected analytical execution → intermediate outputs → synthesis → final output. 
 
 ---
 
@@ -80,7 +96,13 @@ It does not alter the input or produce analytical conclusions.
 
 ### 3. Layer Execution
 
-Selected layers are applied to the input.
+The declared analytical path is executed against the input.
+
+In many runs this takes the form of selected layer execution. That path may contain:
+- one layer,
+- a lawful subset of layers,
+- or a broader multi-layer route,
+depending on the declared scope and execution design.
 
 At this stage:
 
@@ -164,15 +186,23 @@ The lifecycle allows execution flexibility inside stages, but not structural reo
 
 ## Lifecycle Identity
 
-A Pandora analysis remains lifecycle-compliant only if all six stages remain structurally present, whether explicit or embedded in a larger execution system.
+A Pandora analysis remains lifecycle-compliant only if all six stage types remain structurally present, whether explicit or embedded in a larger execution system.
+
+This requirement does not mean that every run must execute the broadest available analytical path. It means only that every valid run must preserve:
+- input ingestion,
+- context framing,
+- selected analytical execution,
+- preserved intermediate outputs,
+- downstream synthesis,
+- and final output generation.
 
 The lifecycle is therefore independent of:
-
-- specific workflows
-- operator topologies
-- automation styles
-- reporting formats
-- deployment scale
+- specific workflows,
+- selected layer width,
+- operator topologies,
+- automation styles,
+- reporting formats,
+- and deployment scale.
 
 These factors change **how the lifecycle is instantiated**, not **what the lifecycle is**.
 
@@ -184,9 +214,10 @@ Variation is allowed **within** the lifecycle, not **instead of** it.
 
 Examples of valid variation include:
 
-- partial or full layer subsets
-- interaction-level or conversation-level scope
+- single-layer, partial-layer, or broader multi-layer analytical paths
+- interaction-level, segment-level, or conversation-level scope
 - single-pass or multi-pass execution
+- workflow-mode or freestyle-mode execution
 - manual, hybrid, or automated operation
 - centralized or distributed execution
 
