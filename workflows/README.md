@@ -45,6 +45,7 @@ Defines the reusable structure for future workflow specifications. Every new wor
 ## 6. `single-vs-multiplayer.md`
 
 Document explaining the practical differences between single and multiplayer operator modes in Pandora, including core principles, workflow distinctions, and their implications for downstream processing, validation, and provenance.
+
 ---
 
 ## Core Idea
