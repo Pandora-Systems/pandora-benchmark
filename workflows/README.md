@@ -46,6 +46,44 @@ Defines the reusable structure for future workflow specifications. Every new wor
 
 ## Core Idea
 
+## Workflow Classification
+
+Pandora workflows should be understood along two dimensions:
+
+### Category
+The analytical purpose of the route.
+
+Examples:
+- baseline
+- partial
+- validation
+- consensus
+- distributed
+- hybrid
+- exploratory
+
+### Type
+The operator topology through which the route is executed.
+
+Examples:
+- single-operator
+- hybrid human-agent
+- multi-operator
+- distributed-layer
+- freestyle-compatible
+
+This distinction matters.
+
+A workflow is not defined only by what stages it runs.
+It is also defined by who or what runs them.
+
+Operator models live at the framework level as evaluation topologies.
+Workflows turn those topologies into concrete execution routes.
+
+So:
+- **category** tells you what the route is trying to do
+- **type** tells you under which operator model it runs
+
 A workflow is a route, not a reasoning engine.
 
 It decides:
