@@ -42,6 +42,9 @@ Defines valid partial workflows. This document explains how Pandora can be used 
 
 Defines the reusable structure for future workflow specifications. Every new workflow should be describable through a shared template so the execution layer remains modular, auditable, and extensible as Pandora grows.
 
+## 6. `single-vs-multiplayer.md`
+
+Document explaining the practical differences between single and multiplayer operator modes in Pandora, including core principles, workflow distinctions, and their implications for downstream processing, validation, and provenance.
 ---
 
 ## Core Idea
