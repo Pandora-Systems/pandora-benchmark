@@ -107,6 +107,64 @@ This mode is best suited for:
 - block discovery,
 - and discovering future candidate workflows.
 
+## 2A. Execution Mode, Workflow Category, and Workflow Type Are Different Things
+
+These three concepts should not be collapsed into one another.
+
+### Execution Mode
+Defines whether the route is:
+- workflow mode
+- freestyle mode
+
+This answers how the route is formed.
+
+### Workflow Category
+Defines the analytical purpose of the route.
+
+Examples:
+- baseline
+- partial
+- validation
+- consensus
+- distributed
+- exploratory
+
+This answers what the route is for.
+
+### Workflow Type
+Defines the operator topology under which the route is executed.
+
+Examples:
+- single-operator
+- hybrid human-agent
+- multi-operator
+- distributed-layer
+
+This answers who or what runs the route.
+
+These three layers of description are complementary.
+
+A workflow may therefore be:
+- `workflow_mode`
+- category: `baseline`
+- type: `single-operator`
+
+Or:
+- `workflow_mode`
+- category: `validation`
+- type: `multi-operator`
+
+Or:
+- `freestyle_mode`
+- category: `exploratory`
+- type: `single-operator`
+
+This distinction keeps Pandora clean.
+
+Execution mode describes route formation.
+Category describes route purpose.
+Type describes operator topology.
+
 Pandora does not force all valid executions into preauthored workflows.
 But it also does not permit freestyle execution to become structural chaos.
 
