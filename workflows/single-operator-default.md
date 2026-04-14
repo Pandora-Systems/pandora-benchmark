@@ -57,6 +57,11 @@ Single operator
 ### Intended Use
 Baseline structured analysis of one evaluated unit using a predefined path under minimal-resource conditions.
 
+This workflow is the canonical baseline route for the single-operator type.
+
+Its purpose is not to define solo work as the only valid Pandora form.
+Its purpose is to provide the simplest complete authored route under one-operator conditions.
+
 ---
 
 ## Recommended Use Cases
