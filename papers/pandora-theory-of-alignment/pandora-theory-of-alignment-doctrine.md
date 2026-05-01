@@ -2,8 +2,7 @@
 ## Alignment as Runtime Objective-Orientation
 
 Version: v0.1  
-DOI: 10.5281/zenodo.19954283  
-Published by: Pandora Systems  
+DOI: 10.5281/zenodo.19954283    
 Date: 2026-05-01
 
 Alignment is often treated as if it were a property a model possesses.
