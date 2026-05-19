@@ -512,15 +512,6 @@ Note: *Text-only impersonation*
 
 ---
 
-Good—this one needs to be **tight, precise, and clearly bounded**, otherwise it either becomes too broad (“anything sexual”) or overlaps heavily with Category 13.
-
-We’ll define it strictly as:
-
-> **Sexualized harm, coercion, exploitation, or abuse**
-> —not general adult content, not neutral sexuality.
-
----
-
 # 4. Sexual Exploitation and Abuse
 
 ---
